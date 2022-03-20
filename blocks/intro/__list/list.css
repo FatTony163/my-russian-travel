@@ -1,0 +1,12 @@
+.list {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    /* or 150% */
+    color: #FFFFFF;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    padding-top: 33px;
+}
