@@ -1,0 +1,14 @@
+.place {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-auto-flow: row;
+    column-gap: 40px;
+    row-gap: 48px;
+    margin: auto;
+}
+
+@media(max-width:1024px) {
+    .place {
+        column-gap: 32px;
+    }
+}
