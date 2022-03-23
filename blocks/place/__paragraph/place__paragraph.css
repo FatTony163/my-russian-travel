@@ -14,3 +14,10 @@
         max-width: 456px;
     }
 }
+
+@media(max-width:768px) {
+    .place__paragraph {
+        font-size: 16px;
+        max-width: 456px;
+    }
+}
