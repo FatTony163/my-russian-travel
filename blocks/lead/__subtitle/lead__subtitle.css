@@ -4,7 +4,7 @@
     font-size: 30px;
     line-height: 1.2;
     text-align: center;
-    width: 640px;
+    max-width: 600px;
     margin: auto;
     padding-top: 32px;
     color: #fff;
