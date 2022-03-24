@@ -1,30 +1,53 @@
-.cover__background {
-    background-image: url(../../../images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
-    width: 1184px;
-    height: 640px;
-    margin: 0 auto;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.cover__background::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #2A2C2F;
-    opacity: 0.3;
-    transition: opacity 0.3sec;
-}
-
-.cover__background:hover .cover__background ::before {
-    opacity: 0.8;
-}
+     .cover__background {
+         background-image: url(../../../images/background.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         box-sizing: border-box;
+         width: 1184px;
+         height: 640px;
+         margin: 0 auto;
+         display: flex;
+         position: relative;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     .cover__background::before {
+         content: "";
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         background: #2A2C2F;
+         opacity: 0.3;
+         transition: 0.3s;
+     }
+     
+     .cover__background:hover::before {
+         background: #2A2C2F;
+         opacity: 0.8;
+         transition: 0.3s;
+     }
+     
+     @media(max-width:1024px) {
+         .cover__background {
+             width: 1024px;
+             height: 640px;
+         }
+     }
+     
+     @media(max-width:768px) {
+         .cover__background {
+             width: 768px;
+             height: 480px;
+         }
+     }
+     
+     @media(max-width:320px) {
+         .cover__background {
+             width: 320px;
+             height: 200px;
+         }
+     }
