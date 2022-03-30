@@ -1,31 +1,28 @@
-.lead__illustration {
-    width: 984px;
-    height: 615px;
-    display: flex;
-    margin: auto;
-    position: relative;
-    background: url(../../../images/kalegin-michail-179870-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-@media(max-width:1024px) {
     .lead__illustration {
-        max-width: 928px;
-        max-height: 580px;
+        width: 984px;
+        height: 615px;
+        display: flex;
+        margin: auto;
+        position: relative;
     }
-}
-
-@media(max-width:768px) {
-    .lead__illustration {
-        width: 768px;
-        height: 480px;
+    
+    @media(max-width: 1024px) {
+        .lead__illustration {
+            max-width: 928px;
+            max-height: 580px;
+        }
     }
-}
-
-@media(max-width:320px) {
-    .lead__illustration {
-        width: 320px;
-        height: 200px;
+    
+    @media(max-width:768px) {
+        .lead__illustration {
+            width: 768px;
+            height: 480px;
+        }
     }
-}
+    
+    @media(max-width:320px) {
+        .lead__illustration {
+            width: 320px;
+            height: 200px;
+        }
+    }

@@ -26,7 +26,6 @@
 @media(max-width:320px) {
     .place {
         grid-template-columns: 320px;
-        grid-auto-flow: row;
         padding-bottom: 50px;
     }
 }
