@@ -1,5 +1,5 @@
     .place__header {
-        font-style: normal;
+        font-style: black;
         font-weight: 900;
         font-size: 72px;
         line-height: 1.06;
@@ -13,6 +13,8 @@
     @media(max-width:768px) {
         .place__header {
             font-size: 42px;
+            max-width: 330px;
+            line-height: 0.95;
         }
     }
     

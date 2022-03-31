@@ -8,9 +8,10 @@
     text-align: center;
     margin: 0;
     justify-content: center;
-    color: #FFFFFF;
+    color: #fff;
     position: relative;
     max-width: 540px;
+    margin: 0 auto;
 }
 
 @media(max-width:320px) {

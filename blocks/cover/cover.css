@@ -1,6 +1,12 @@
-.cover {
-    max-width: 1184px;
-    cursor: pointer;
-    display: flex;
-    margin: 0 auto;
-}
+    .cover {
+        max-width: 1184px;
+        cursor: pointer;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    @media(max-width:768px) {
+        .cover {
+            padding-top: 15px
+        }
+    }
