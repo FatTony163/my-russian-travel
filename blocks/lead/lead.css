@@ -1,14 +1,9 @@
     .lead {
         max-width: 984px;
-        padding-top: 56px;
+        padding-top: 48px;
         position: relative;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-    }
-    
-    @media(max-width:768px) {
-        .lead {
-            padding-top: 51px;
-        }
+        justify-content: center;
     }

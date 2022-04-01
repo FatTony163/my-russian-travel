@@ -6,13 +6,14 @@
         background-position: center;
         box-sizing: border-box;
         width: 1184px;
-        min-height: 640px;
+        min-height: 740px;
         margin: 0 auto;
         display: flex;
         position: relative;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        object-fit: cover;
     }
     
     .cover__link::before {

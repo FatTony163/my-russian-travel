@@ -3,6 +3,7 @@
         cursor: pointer;
         display: flex;
         margin: 0 auto;
+        object-fit: cover;
     }
     
     @media(max-width:768px) {
