@@ -1,9 +1,6 @@
     .lead__illustration {
-        min-height: 615px;
-        display: flex;
-        margin: 0 auto;
-        position: relative;
-        width: cover;
+        max-width: 100%;
+        width: 100%;
     }
     
     @media(max-width: 1024px) {
