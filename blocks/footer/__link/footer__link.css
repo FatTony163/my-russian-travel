@@ -9,7 +9,7 @@
     padding-right: 18px;
 }
 
-@media (max-width:320px) {
+@media (max-width:560px) {
     .footer__link {
         font-size: 24px;
         padding-bottom: 36px;
