@@ -4,6 +4,7 @@
         display: flex;
         margin: 0 auto;
         object-fit: cover;
+        padding-top: 12px;
     }
     
     @media(max-width:768px) {

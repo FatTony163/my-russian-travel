@@ -29,12 +29,13 @@
      }
  }
  
- @media(max-width:320px) {
+ @media(max-width:767px) {
      .photo-grid {
          grid-template-columns: 288px;
          grid-template-rows: 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px;
          gap: 12px;
          padding-bottom: 64px;
          padding-top: 64px;
+         max-width: 288px;
      }
  }

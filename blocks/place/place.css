@@ -4,7 +4,7 @@
     grid-auto-flow: row;
     column-gap: 40px;
     row-gap: 48px;
-    margin: 0 24px;
+    margin: 0 auto;
     padding-bottom: 80px;
 }
 
@@ -21,6 +21,7 @@
         grid-template-columns: 340px 1fr;
         column-gap: 28px;
         padding-bottom: 41px;
+        margin: 0 24px;
     }
 }
 
@@ -28,13 +29,7 @@
     .place {
         grid-template-columns: 320px;
         row-gap: 32px;
-    }
-}
-
-@media(max-width:320px) {
-    .place {
         margin: 0 16px;
-        grid-template-columns: 320px;
-        row-gap: 32px;
+        padding-bottom: 25px;
     }
 }
