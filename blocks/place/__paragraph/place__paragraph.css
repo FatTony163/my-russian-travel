@@ -1,19 +1,21 @@
 .place__paragraph {
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     /* or 29px */
     color: #FFFFFF;
     max-width: 484px;
-    padding-bottom: 25px;
     margin: auto;
     text-decoration: none;
+    padding-bottom: 25px;
 }
 
-@media(max-width:1024px) {
+@media(max-width: 1024px) {
     .place__paragraph {
         max-width: 456px;
+    }
+    .place__paragraph:last-child {
+        padding-bottom: 0;
     }
 }
 
@@ -27,5 +29,6 @@
 @media(max-width:320px) {
     .place__paragraph {
         max-width: 288px;
+        line-height: 26px;
     }
 }

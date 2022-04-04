@@ -10,11 +10,18 @@
         margin: 0;
     }
     
+    @media(max-width:1024px) {
+        .place__header {
+            padding-left: 28px;
+        }
+    }
+    
     @media(max-width:768px) {
         .place__header {
             font-size: 42px;
             max-width: 330px;
-            line-height: 90.5%;
+            line-height: 46px;
+            padding-left: 0;
         }
     }
     

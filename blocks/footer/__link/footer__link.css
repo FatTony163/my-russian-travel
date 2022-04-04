@@ -12,8 +12,8 @@
 @media (max-width:560px) {
     .footer__link {
         font-size: 24px;
-        padding-bottom: 36px;
+        padding-bottom: 32px;
         padding-right: 0;
-        line-height: 0.83;
+        line-height: 24px;
     }
 }
